@@ -76,7 +76,7 @@ class Contact extends Component {
   };
 
   render() {
-    const { open, nombre, email, asunto, comentario, errorMail, isFormValid, modalMessage } = this.state;
+    const { open, nombre, email, asunto, comentario, errorMail, isFormValid } = this.state;
     const buttonDisabled = !isFormValid;
 
     return (
